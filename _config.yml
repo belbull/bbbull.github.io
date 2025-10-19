@@ -25,16 +25,16 @@ repository: "belbull/site-page"
 author:
   # Biographic information
   avatar: "profile.png"
-  name: "Beleicia B."
-  pronouns: # example: "she/her"
-  bio: "Ph.D. Candidate at Stanford"
+  name:
+  pronouns:
+  bio:
   location: #
   employer: #
   uri: # URL
   email: "beleicia@cs.stanford.edu"
 
   # Academic websites
-  academia: "https://beleiciabullock.com"
+  academia: https://beleiciabullock.com/files/cv.pdf
   arxiv: # URL - Update with the correct link to your profile
   googlescholar: "https://scholar.google.com/citations?user=OyE0sDYAAAAJ&hl=en&oi=ao"
   inspire-hep: # URL

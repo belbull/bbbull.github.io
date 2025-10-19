@@ -6,10 +6,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
-*pronounced like buh-lee-sea-ah*
- 
 
-I am a Ph.D. Candidate at Stanford University, where I am advisded by two awesome advisors - Michael Bernstein and James Landay. I am passionate about exploring **how we design systems that better support the varied experiences of different communities.**
+_pronounced like buh-lee-sea-ah_
+
+I am a Ph.D. Candidate at Stanford University, where I am advisded by two awesome advisors - Michael Bernstein and James Landay. I explore **how we design systems that better support the varied experiences of different communities.**
 
 Currently, my research approaches this interest by exploring design metaphors. Design metaphors shape the intended user experiences of our systems. We strive for _town square_-like social media platforms or _assistant_-like LLMs. Yet how do we know if these metaphors reflect users' actual experiences? What are the design tradeoffs that we make when we strive for such metaphors and how do these tradeoffs impact communities? What happens when we consider new metaphors for design or build around multiple metaphors? **Within my work, I look to see how we can use design metaphors as both a design and measurement tool** to shed light on users' varied experiences, highlight when intended user experiences do not translate to users' experiences, and provide new design inspiration for more equitable and pluralistic systems.
 
@@ -22,17 +22,17 @@ Prior to Stanford, I earned an MS in CS at the University of Illinois Urbana-Cha
 # 📑 Selected Publications
 
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
+{% for category in site.publication_category  %}
+{% assign title_shown = false %}
+{% for post in site.publications reversed %}
+{% if post.category != category[0] %}
+{% continue %}
+{% endif %}
+{% include archive-single.html %}
+{% endfor %}
+{% endfor %}
 {% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+{% for post in site.publications reversed %}
+{% include archive-single.html %}
+{% endfor %}
 {% endif %}
