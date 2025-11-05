@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👩🏾‍💻 Hi! I'm Beleicia!"
+title: "👋🏾 Hi! I'm Beleicia!"
 author_profile: true
 redirect_from:
   - /about/
