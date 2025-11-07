@@ -7,8 +7,8 @@ excerpt: "In this paper, we present a novel repository of computing ethics teach
 date: 2021-01-01
 venue: "ACM Technical Symposium on Computer Science Education (SIGCSE)"
 slidesurl:
-paperurl: "http://academicpages.github.io/files/2021-computing-ethics-narratives.pdf"
-bibtexurl: "http://academicpages.github.io/files/2022-forming-fulfilling-expectations.bib"
+paperurl: "..files/2021-computing-ethics-narratives.pdf"
+bibtexurl: "..files/2022-forming-fulfilling-expectations.bib"
 citation:
 ---
 

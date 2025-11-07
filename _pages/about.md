@@ -19,7 +19,7 @@ Prior to Stanford, I earned an MS in CS at the University of Illinois Urbana-Cha
 
 ---
 
-# 📑 Selected Publications
+# Selected Publications
 
 {% if site.publication_category %}
 {% for category in site.publication_category  %}
